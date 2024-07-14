@@ -51,6 +51,8 @@ class Bing:
                 return "+filterui:photo-transparent"
             elif shorthand == "portrait":
                 return "+filterui:photo-photo+filterui:aspect-tall+filterui:imagesize-custom_1080_1920"
+            elif shorthand == "landscape":
+                return "+filterui:imagesize-custom_1920_1080+filterui:aspect-wide+filterui:photo-photo"
             else:
                 return ""
 
